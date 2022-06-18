@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zt8eg4mNY1yhn7zuUTCQJGoGiOV7iY07K3yK+5Dw9K8ohKQp1vx1VvqkVykbPtjhJtqKMWTwB0uuvzWQjnuufw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anujk\\source\\repos\\BookStore\\ModelLayer\\ModelLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anujk\\.nuget\\packages\\mongodb.bson\\2.16.0\\mongodb.bson.2.16.0.nupkg.sha512",
+    "C:\\Users\\anujk\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
