@@ -39,6 +39,7 @@ namespace BookStore
 
             services.AddSingleton<IDBSetting>(sp =>
                 sp.GetRequiredService<IOptions<DBSetting>>().Value);
+
             services.AddTransient<IUserManager, UserManager>();
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IBookManager, BookManager>();
@@ -47,6 +48,12 @@ namespace BookStore
             services.AddTransient<ICartRepository, CartRepository>();
             services.AddTransient<IWishlistManager, WishlistManager>();
             services.AddTransient<IWishlistRepository, WishlistRepository>();
+            services.AddTransient<IAddressManager, AddressManager>();
+            services.AddTransient<IAddressRepository, AddressRepository>();
+            services.AddTransient<IFeedbackManager, FeedbackManager>();
+            services.AddTransient<IFeedbackRepository, FeedbackRepository>();
+            services.AddTransient<IOrderManager, OrderManager>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
 
 
 
